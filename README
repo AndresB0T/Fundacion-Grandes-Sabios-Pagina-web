@@ -1,0 +1,14 @@
+fundacion-grandessabios/
+├─ index.html        (con hero + carrusel)
+├─ nosotros.html
+├─ programas.html
+├─ contacto.html
+├─ styles.css        (paleta nueva + carrusel)
+└─ img/
+   ├─ logo-grandessabios.png
+   ├─ hero-estudiantes.jpg
+   ├─ carrusel1.jpg
+   ├─ carrusel2.jpg
+   ├─ carrusel3.jpg
+   ├─ logo-universidad-distrital.png
+   └─ (otras que quieras)

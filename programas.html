@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programas | Fundación Grandes Sabios</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-top">
+    <div class="logo">
+      <img src="img/logo-grandessabios.png" alt="Logo Fundación Grandes Sabios">
+      <span>Fundación Grandes Sabios</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="programas.html" class="active">Programas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">Nuestros programas</h1>
+      <p class="section-intro">
+        Acompañamos a estudiantes, familias y docentes con programas que integran
+        educación, ambiente, emociones, inclusión y nutrición.
+      </p>
+
+      <div class="program-grid">
+
+        <article class="program-card">
+          <h3>Pre-ICFES y Preuniversitario</h3>
+          <p>
+            Programa de formación para estudiantes de grado 10° y 11° que fortalece
+            las competencias evaluadas en las Pruebas Saber 11 y orienta el ingreso
+            a la educación superior.
+          </p>
+          <ul>
+            <li>Simulacros tipo Saber especializados</li>
+            <li>Clases por competencias y ejes temáticos</li>
+            <li>Test vocacional y psicológico</li>
+            <li>Charlas preuniversitarias</li>
+            <li>Excursiones a universidades públicas</li>
+          </ul>
+        </article>
+
+        <article class="program-card">
+          <h3>Programa Ambiental</h3>
+          <p>
+            Acompañamiento a instituciones educativas en la construcción de una
+            cultura ambiental activa y sostenible.
+          </p>
+          <ul>
+            <li>Puntos ecológicos y mobiliario ambiental</li>
+            <li>Recolección semanal de material reciclable</li>
+            <li>Capacitaciones a estudiantes y administrativos</li>
+            <li>Apoyo en la implementación de programas PIGA</li>
+          </ul>
+        </article>
+
+        <article class="program-card">
+          <h3>Escuela de Emociones</h3>
+          <p>
+            Espacio de formación socioemocional que fortalece habilidades para la
+            vida, el autocuidado y la toma de decisiones.
+          </p>
+          <ul>
+            <li>Test vocacional para estudiantes</li>
+            <li>Talleres para maestros</li>
+            <li>Escuela de padres</li>
+            <li>Manejo de ansiedad y estrés escolar</li>
+            <li>Preparación emocional para la vida universitaria</li>
+          </ul>
+        </article>
+
+        <article class="program-card">
+          <h3>Diversamente – Educación Inclusiva</h3>
+          <p>
+            Estrategia para que todas las niñas, niños y jóvenes accedan a una
+            educación de calidad, sin importar sus diferencias.
+          </p>
+          <ul>
+            <li>Formación docente en educación inclusiva y DUA</li>
+            <li>Acompañamiento psicológico a estudiantes y familias</li>
+            <li>Diseño curricular y elaboración de PIAR</li>
+            <li>Orientación para madres, padres y cuidadores</li>
+          </ul>
+        </article>
+
+        <article class="program-card">
+          <h3>Editorial Grandes Sabios</h3>
+          <p>
+            Extensión académica orientada a la creación y publicación de materiales
+            educativos, literarios y didácticos.
+          </p>
+          <ul>
+            <li>Biblioteca digital</li>
+            <li>Serie Académica Básica</li>
+            <li>Plan lector escolar</li>
+            <li>Libros infantiles y de estimulación temprana</li>
+            <li>Revista escolar Grandes Sabios</li>
+          </ul>
+        </article>
+
+        <article class="program-card">
+          <h3>Apoyo Alimentario y Nutricional</h3>
+          <p>
+            Iniciativas para promover una alimentación adecuada y saludable en
+            niños y personas mayores en situación de vulnerabilidad.
+          </p>
+          <ul>
+            <li>Promoción de hábitos saludables</li>
+            <li>Articulación con procesos formativos</li>
+            <li>Enfoque en seguridad alimentaria</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container alianzas">
+      <div>
+        <h2>Alianzas e impacto</h2>
+        <p>
+          Para potenciar nuestros programas trabajamos en colaboración con
+          instituciones de educación superior y organizaciones públicas y
+          privadas.
+        </p>
+        <p>
+          Una de nuestras colaboraciones destacadas es con la Universidad
+          Distrital Francisco José de Caldas para el desarrollo de herramientas
+          tecnológicas educativas.
+        </p>
+      </div>
+      <div class="alianzas-logos">
+        <div class="alianza-card">
+          <img src="img/logo-universidad-distrital.png" alt="Universidad Distrital Francisco José de Caldas">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-content">
+    <p>© <span id="year"></span> Fundación Grandes Sabios S.A – NIT 901861890. Todos los derechos reservados.</p>
+    <p>Bogotá, Colombia.</p>
+  </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</footer>
+
+</body>
+</html>

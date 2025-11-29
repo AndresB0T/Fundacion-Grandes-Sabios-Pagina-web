@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nosotros | Fundación Grandes Sabios</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-top">
+    <div class="logo">
+      <img src="img/logo-grandessabios.png" alt="Logo Fundación Grandes Sabios">
+      <span>Fundación Grandes Sabios</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html" class="active">Nosotros</a>
+      <a href="programas.html">Programas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Bloque principal -->
+  <section class="section section-alt">
+    <div class="container section-grid">
+      <div>
+        <h1>¿Quiénes somos?</h1>
+        <p>
+          La Fundación Grandes Sabios es una entidad sin ánimo de lucro que
+          promueve el desarrollo académico, social y ambiental de comunidades
+          en situación de vulnerabilidad, con especial énfasis en la niñez y la
+          juventud.
+        </p>
+        <p>
+          Creemos en una educación cercana, innovadora y accesible que transforme
+          vidas y abra puertas para que más personas accedan a oportunidades
+          reales de estudio y crecimiento.
+        </p>
+        <p>
+          Trabajamos en alianza con instituciones educativas, organizaciones
+          sociales y actores locales para construir entornos más justos,
+          inclusivos y sostenibles.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Misión</h2>
+        <p>
+          Promover el desarrollo académico, social y ambiental mediante programas
+          innovadores y accesibles que fortalezcan las capacidades de estudiantes,
+          instituciones y comunidades, fomentando el bienestar colectivo y la
+          sostenibilidad.
+        </p>
+
+        <h2>Visión</h2>
+        <p>
+          Ser una organización líder en la transformación educativa, reconocida
+          por su impacto positivo y por garantizar el acceso a una educación
+          inclusiva, creativa y de calidad para todas las personas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Objetivo general -->
+  <section class="section">
+    <div class="container objetivos">
+      <div class="card card-outline">
+        <h2>Objetivo general</h2>
+        <p>
+          Contribuir al bienestar integral de personas mayores y niños mediante
+          programas educativos, ambientales y alimentarios que promuevan el
+          conocimiento, la conciencia ecológica y la seguridad alimentaria.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Valores -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Nuestros valores</h2>
+      <p class="section-intro">
+        La fundación se construye desde el cuidado, el respeto y la alegría
+        de aprender juntos.
+      </p>
+
+      <div class="program-grid">
+        <article class="program-card">
+          <h3>Educación</h3>
+          <p>Creemos en la educación como herramienta principal de cambio.</p>
+        </article>
+        <article class="program-card">
+          <h3>Inclusión</h3>
+          <p>Reconocemos y valoramos la diversidad de todas las personas.</p>
+        </article>
+        <article class="program-card">
+          <h3>Sostenibilidad</h3>
+          <p>Cuidamos el entorno y promovemos una cultura ambiental responsable.</p>
+        </article>
+        <article class="program-card">
+          <h3>Trabajo en equipo</h3>
+          <p>Construimos redes de apoyo entre estudiantes, familias y docentes.</p>
+        </article>
+        <article class="program-card">
+          <h3>Humanización</h3>
+          <p>Ponemos a la persona en el centro de todos nuestros procesos.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-content">
+    <p>© <span id="year"></span> Fundación Grandes Sabios S.A – NIT 901861890. Todos los derechos reservados.</p>
+    <p>Bogotá, Colombia.</p>
+  </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</footer>
+
+</body>
+</html>

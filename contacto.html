@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto | Fundación Grandes Sabios</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-top">
+    <div class="logo">
+      <img src="img/logo-grandessabios.png" alt="Logo Fundación Grandes Sabios">
+      <span>Fundación Grandes Sabios</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="programas.html">Programas</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container contact-grid">
+      <div>
+        <h1>Contáctanos</h1>
+        <p>
+          Si deseas implementar nuestros programas en tu institución educativa,
+          establecer una alianza o apoyar nuestras iniciativas, escríbenos y
+          conversemos.
+        </p>
+
+        <div class="contact-info">
+          <p><strong>Teléfono:</strong> <a href="tel:+573223042685">+57 322 304 2685</a></p>
+          <p><strong>Correo:</strong> <a href="mailto:secretariageneral@grandessabios.org">secretariageneral@grandessabios.org</a></p>
+          <p><strong>Dirección:</strong> Calle 2 # 68 f – 12, Marsella – Bogotá, Colombia</p>
+        </div>
+
+        <p>
+          También puedes completar el formulario y uno de nuestros integrantes
+          se comunicará contigo lo antes posible.
+        </p>
+      </div>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com">
+        </div>
+        <div class="form-group">
+          <label for="institucion">Institución / Organización</label>
+          <input type="text" id="institucion" name="institucion" placeholder="Nombre de la institución">
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos en qué podemos ayudarte"></textarea>
+        </div>
+        <!-- Aquí luego pueden conectar el formulario a un backend (PHP, Node, etc.) -->
+        <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-content">
+    <p>© <span id="year"></span> Fundación Grandes Sabios S.A – NIT 901861890. Todos los derechos reservados.</p>
+    <p>Bogotá, Colombia.</p>
+  </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</footer>
+
+</body>
+</html>

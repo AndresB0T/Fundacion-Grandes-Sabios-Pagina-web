@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio | Fundación Grandes Sabios</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-top">
+    <div class="logo">
+      <img src="Imagenes/logo-grandessabios.jpg" alt="Logo Fundación Grandes Sabios">
+      <span>Fundación Grandes Sabios</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="programas.html">Programas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <div class="container hero">
+    <div class="hero-text">
+      <h1>Transformamos vidas a través de la educación</h1>
+      <p>
+        Acompañamos a niños, jóvenes, docentes e instituciones a través de 
+        programas educativos, emocionales, ambientales e inclusivos.
+      </p>
+      <div class="hero-buttons">
+        <a href="programas.html" class="btn btn-primary">Conoce nuestros programas</a>
+        <a href="contacto.html" class="btn btn-secondary">Contáctanos</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="img/hero-estudiantes.jpg" alt="Estudiantes Grandes Sabios">
+    </div>
+  </div>
+</header>
+
+
+<!-- CARRUSEL NUEVO (como Fundación Santa Fe) -->
+<section class="carousel-section">
+  <h2 class="carousel-title">Noticias, programas y actualidad</h2>
+
+  <!-- Contenedor del carrusel (lo puedes convertir en slider con Swiper, Glide o Bootstrap) -->
+  <div class="carousel-container">
+      
+      <div class="carousel-card">
+        <img src="img/carrusel1.jpg" alt="">
+        <h3>Nuevo proyecto</h3>
+        <p>Contenido de programa .</p>
+      </div>
+
+      <div class="carousel-card">
+        <img src="img/carrusel2.jpg" alt="">
+        <h3>Nuevo proyecto</h3>
+        <p>Contenido de programa.</p>
+      </div>
+
+      <div class="carousel-card">
+        <img src="img/carrusel3.jpg" alt="">
+        <h3>Nuevo proyecto</h3>
+        <p>Contenido de programa.</p>
+      </div>
+
+  </div>
+
+  </section>
+
+
+<!-- SECCIÓN QUIÉNES SOMOS -->
+<section class="section section-alt">
+  <div class="container section-grid">
+    <div>
+      <h2>¿Quiénes somos?</h2>
+      <p>
+        Somos una fundación dedicada al desarrollo académico, ambiental 
+        y emocional de comunidades vulnerables en Colombia.
+      </p>
+      <p>
+        Trabajamos con instituciones educativas, familias y docentes para 
+        fortalecer la educación y mejorar la calidad de vida.
+      </p>
+      <a href="nosotros.html" class="btn btn-secondary">Saber más</a>
+    </div>
+
+    <div class="card">
+      <h3>Nuestras áreas</h3>
+      <ul>
+        <li>Educación y Pre-ICFES</li>
+        <li>Medio ambiente</li>
+        <li>Formación emocional</li>
+        <li>Educación inclusiva</li>
+        <li>Editorial académica</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECCIÓN PROGRAMAS DESTACADOS -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Programas destacados</h2>
+
+    <div class="program-grid">
+      
+      <article class="program-card">
+        <h3>Pre-ICFES y Preuniversitario</h3>
+        <p>Preparación académica integral para estudiantes de grado 10° y 11°.</p>
+        <a href="programas.html" class="btn btn-secondary">Ver más</a>
+      </article>
+
+      <article class="program-card">
+        <h3>Programa Ambiental</h3>
+        <p>Fomento de la conciencia ecológica en colegios.</p>
+        <a href="programas.html" class="btn btn-secondary">Ver más</a>
+      </article>
+
+      <article class="program-card">
+        <h3>Escuela de Emociones</h3>
+        <p>Gestión del estrés, ansiedad y fortalecimiento emocional.</p>
+        <a href="programas.html" class="btn btn-secondary">Ver más</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <div class="container footer-content">
+    <p>© <span id="year"></span> Fundación Grandes Sabios S.A – NIT 901861890.</p>
+    <p>Bogotá, Colombia.</p>
+  </div>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</footer>
+
+</body>
+</html>
